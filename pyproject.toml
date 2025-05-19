@@ -9,3 +9,6 @@ dependencies = [
     "mcp[cli]>=1.5.0",
     "requests>=2.32.3"
 ]
+
+[project.scripts]
+internetsearch-mcp-server = "Internet_search:main"
