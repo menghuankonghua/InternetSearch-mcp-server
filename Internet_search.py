@@ -60,6 +60,11 @@ def InternetSearch(query,txt_count=5):
         print(f"Failed to parse JSON response: {e}")
     return Webtxt
 
-if __name__ == "__main__":
+def main():
+    """主函数，用于启动 MCP 服务器。"""
+    print("启动 Internetsearch-mcp-server...")
     # Initialize and run the server
     mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+    main()
