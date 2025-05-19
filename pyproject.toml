@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [project.scripts]
-internetsearch-mcp-server = "Internet_search:main"
+internetsearch-mcp-server = "Internet_search"
